@@ -1,0 +1,15 @@
+#!/bin/sh
+
+INSTALL_DIR=/root/share/bin/duye_spider
+
+mkdir $INSTALL_DIR -p
+mkdir $INSTALL_DIR/lib -p 
+
+#my lib
+cp ./lib/* $INSTALL_DIR/lib -rf
+
+#config
+cp ./crawler/larbin.conf $INSTALL_DIR -f
+
+#bin
+cp ./bin/dspider $INSTALL_DIR -f
