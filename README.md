@@ -1,4 +1,3 @@
 DuyeSpider
 ==========
-
-Duye Spider
+网页爬虫工具
